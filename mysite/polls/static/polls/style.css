@@ -1,0 +1,48 @@
+li a{
+text-decoration: none;
+color: teal;
+font-size: 25px;
+background: azure;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: teal;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+h1{
+color:  #B22222;
+margin: 20px;
+}
+.formdetail{
+margin: 30px;
+color: teal;
+font-size: 20px;
+}
+
+.resultli{
+color: teal;
+font-size: 20px;
+margin: 10px;
+}
+
+.resulta{
+margin: 30px;
+font-size:20px;
+}
+
+.imgind{
+width: 500px;
+height: auto;
+float: right;
+margin-right:50px;
+border-radius: 10px;
+}
